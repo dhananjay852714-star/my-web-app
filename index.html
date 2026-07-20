@@ -5,17 +5,7 @@
 CHARSET="UTF-8">
 <LINK REL="ICON" TYPE="IMAGE/X-ICON"
 HREF="logo.jpeg">
-
-<STYLE>
-.RAM{
-border-radius:10px; 
-WIDTH: 220;
-HEIGHT: 40PX;
-COLOR: INDIGO;
-BACKGROUND-COLOR: YELLOW;
-BORDER-COLOR: RED;
-}
-</STYLE>
+<link rel="stylesheet" type="text/css" href="style.css">
 </HEAD>
 <body>
 <form STYLE="BACKGROUND-COLOR: pink;" METHOD="post" 
@@ -26,49 +16,18 @@ ACTION="/submit"
 <P
 ">
 Name:-
-<input type="text" name="name" PLACEHOLDER="ENTER YOUR NAME" CLASS="RAM" STYLE=" 
-border-radius:10px; 
-margin-left:150px;
-"><br><br>
+<input type="text" name="name" PLACEHOLDER="ENTER YOUR NAME" class="name-style"
+><br><br>
 E-mail id:-
-<input type="EMAIL" name="email" PLACEHOLDER="ENTER YOUR E-MAIL" CLASS="RAM" STYLE=" 
-border-radius:10px; 
-margin-left:128px;
-"><br><br>
+<input type="EMAIL" name="email" PLACEHOLDER="ENTER YOUR E-MAIL" class="email-style"><br><br>
 Password:-
-<input type="password" name="password" PLACEHOLDER="ENTER THE EMAIL'S PASSWORD " CLASS="RAM" STYLE=" 
-border-radius:10px; 
-margin-left:126px;
-"><br><br>
+<input type="password" name="password" PLACEHOLDER="ENTER THE EMAIL'S PASSWORD " class="pass-style"><br><br>
 Mobile Number:-
- <input type="tel"  name="mobile" PLACEHOLDER="ENTER YOUR MOBILE NUMBER" class="ram" STYLE=" 
-border-radius:10px; 
-margin-left:86px;
-"><br><br>
+ <input type="tel"  name="mobile" PLACEHOLDER="ENTER YOUR MOBILE NUMBER" class="mobile-style"><br><br>
 </P>
 <table><tr><th>
-<Input type="SUBMIT" value="SUBMIT" name="SUBMIT" STYLE="border-radius : 20px;
-Color :red;
-background-color: yellow;
-margin: 20px;
-FONT-Size: 30px;
-FONT-FAMILY: Magneto;
-HEIGHT:50PX;
-WIDTH:170PX;
-PADDING:0PX;
-BORDER-COLOR: RED;
-MARGIN-LEFT:200PX; "></th><th>
-<Input type="RESET" value="RESET" name="RESET" STYLE="border-radius : 20px;
-Color :red;
-background-color: yellow;
-margin: 20px;
-FONT-Size: 30px;
-FONT-FAMILY:Magneto;
-HEIGHT:50PX;
-WIDTH:150PX;
-PADDING:0PX;
-BORDER-COLOR: RED;
-MARGIN-RIGHT:200PX;"></th></tr></table><br>
+<Input type="SUBMIT" value="SUBMIT" name="SUBMIT" class="btn-style"></th><th>
+<Input type="RESET" value="RESET" name="RESET" class="btn-style"></th></tr></table><br>
 </fieldset>
 </form>
 </body>
