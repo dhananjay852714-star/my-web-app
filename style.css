@@ -1,0 +1,45 @@
+/* style.css */
+body { 
+    background-color: pink; 
+    font-family: sans-serif; 
+}
+
+
+.name-style { margin-left: 150px; border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    color: indigo;
+    background-color: yellow;
+    border: 2px solid red;}
+.email-style { margin-left: 128px;border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    color: indigo;
+    background-color: yellow;
+    border: 2px solid red; }
+.pass-style { margin-left: 126px;border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    color: indigo;
+    background-color: yellow;
+    border: 2px solid red; }
+.mobile-style { margin-left: 86px;border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    color: indigo;
+    background-color: yellow;
+    border: 2px solid red; }
+
+/* Buttons ke liye */
+.btn-style {
+    border-radius: 20px;
+    color: red;
+    background-color: yellow;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Magneto', sans-serif;
+    height: 50px;
+    width: 170px;
+    border: 2px solid red;
+    cursor: pointer;
+}
